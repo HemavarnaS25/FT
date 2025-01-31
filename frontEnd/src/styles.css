@@ -1,0 +1,92 @@
+body {
+  background: radial-gradient(circle at top left, #20002c, #0d0d0d);
+  font-family: 'Poppins', sans-serif;
+  color: #e6e6e6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.dashboard h1 {
+  color: #d896ff;
+  font-size: 2rem;
+}
+
+.dashboard p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #b300b3, #800080);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background: linear-gradient(135deg, #d896ff, #b300b3);
+  transform: scale(1.05);
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(128, 0, 128, 0.3);
+  text-align: center;
+  width: 30%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container h2 {
+  color: #d896ff;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

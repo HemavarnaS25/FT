@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f0036, #3c0068);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .exercise-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    max-height: 80vh;  
+    overflow-y: auto; 
+  }
+  .exercise-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .exercise-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .exercise-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  
+  .exercise-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .exercise-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #e0c3fc;
+  }
+  .exercise-container p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+  }
+  .exercise-container h3 {
+    color: #d896ff;
+    margin-top: 20px;
+  }
+  .exercise-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exercise-container ul li {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
