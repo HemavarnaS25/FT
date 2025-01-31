@@ -6,7 +6,7 @@ const NormalDiet = () => {
       <div className="diet-container">
       <h1>Balanced Diet for Normal BMI</h1>
       <img 
-        src="./src/assets/Normal-diet.jpg" 
+        src="Normal-diet.jpg" 
         alt="Healthy balanced diet" 
         style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }} />
       <ul>     

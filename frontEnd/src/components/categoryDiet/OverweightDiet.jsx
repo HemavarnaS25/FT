@@ -6,7 +6,7 @@ const OverweightDiet = () => {
       <div className="diet-container">   
       <h1>Diet Plan for Overweight Individuals</h1>
       <img 
-        src="./src/assets/Overweight-diet.webp" 
+        src="Overweight-diet.webp" 
         alt="Healthy balanced diet" 
         style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }} />
       <ul>

@@ -5,7 +5,7 @@ const UnderweightDiet = () => {
     <div className="diet-container">
          <h1>Diet Plan for Underweight Individuals</h1>
       <img 
-        src=".\src\assets\Underweight-diet.jpg" 
+        src="Underweight-diet.jpg" 
         alt="Healthy balanced diet" 
         style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }} />
       <ul>
